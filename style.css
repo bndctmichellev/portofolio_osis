@@ -11,13 +11,13 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 63%;
 }
 
 body {
     /* hi it's, abcdefbjlewdje */
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
     background-color: rgb(253, 227, 231);
     color: rgb(238, 132, 167);
@@ -102,7 +102,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 5rem;
     background-color: rgb(250, 212, 218);
 }
 
@@ -125,13 +125,13 @@ span {
 }
 
 .home-img {
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 .home-img, img {
     position: relative;
-    width: 32vh;
-    border-radius: 50%;
+    width: 40vh;
+    border-radius: 30%;
     box-shadow: 0 0 25px solid palevioletred;
     cursor: pointer;
     transition: 0.2s linear;
@@ -158,7 +158,7 @@ span {
     border-radius: 50%;
     margin: 8px;
     transition: 0.3s ease;
-    color: rgb(251, 240, 241);
+    color: rgb(165, 106, 148);
 }
 
 .social-icons a i {
@@ -175,6 +175,15 @@ span {
     box-shadow: 0 0 25px rgb(224, 198, 207);
 }
 
+.biodatas {
+    background-color: aliceblue;
+    padding: 3%;
+    border-radius: 9%;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    margin: 10px;
+}
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
