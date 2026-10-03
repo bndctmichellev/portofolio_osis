@@ -21,6 +21,7 @@ body {
     overflow-x: hidden;
     background-color: rgb(253, 227, 231);
     color: rgb(238, 132, 167);
+    justify-content: center;
 }
 
 header {
