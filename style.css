@@ -20,7 +20,7 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-color: rgb(253, 227, 231);
-    color: rgb(238, 132, 167);
+    color: rgb(243, 133, 169);
     justify-content: center;
 }
 
@@ -52,7 +52,7 @@ header {
 }
 
 nav a {
-    font-size: 1.8rem;
+    font-size: 1vw;
     color: purple;
     margin-left: 3.5vw;
     font-weight: 500;
@@ -128,6 +128,7 @@ span {
 p {
     font-weight: 300;
     font-size: 1.8vw;
+    color: rgb(171, 83, 112);
 }
 
 .home-img {
@@ -211,6 +212,9 @@ p {
     align-items: center;
     border-radius: 10px;
     /* margin-right: 20px; */
+}
+nav a {
+    font-size: 2vw;
 }
 li {
     font-weight: 250;
